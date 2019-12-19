@@ -4,22 +4,34 @@ class addition
 {
 	static int add(int a, int b)
 	{
-		return (a+b);
+		return(a+b);
 	}
 
 	static int sub(int a, int b)
 		{
-			return (a-b);
+			return(a-b);
 		}
 
 	public static void main(String args[])
 	{
-		int sum=add(10,20);
-		System.out.println(sum);
+		int a=20, b=10;
+		if(a<0)
+		{
+			a=(2*a)-a;
+		}
 
-		int subt=sub(10,20);
-		System.out.println("SUBSTRACTION :- "subt);
+		if(b<0)
+		{
+			b=(2*b)-b;
+		}
+
+		int sum=add(a,b);
+		System.out.println("the addition is:- "+sum);
+
+		int subt=sub(a,b);
+		System.out.println("the substraction is:- "+subt);
 		
 	}
 } 
+
 
