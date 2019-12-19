@@ -7,10 +7,10 @@ class addition
 		return(a+b);
 	}
 
-	static int sub(int a, int b)
-		{
-			return(a-b);
-		}
+	static int mul(int a, int b)
+	{
+		return (a*b);
+	}
 
 	public static void main(String args[])
 	{
@@ -20,6 +20,7 @@ class addition
 			a=a-(2*a);
 		}
 
+
 		if(b<0)
 		{
 			b=b-(2*b);
@@ -28,8 +29,10 @@ class addition
 		int sum=add(a,b);
 		System.out.println("the addition is:- "+sum);
 
-		int subt=sub(a,b);
-		System.out.println("the substraction is:- "+subt);
+
+		int mult=mul(10,20);
+		System.out.println("MULTPLICATION :- "mult);
+
 		
 	}
 } 
