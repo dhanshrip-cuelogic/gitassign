@@ -14,15 +14,15 @@ class addition
 
 	public static void main(String args[])
 	{
-		int a=20, b=10;
+		int a=-20, b=10;
 		if(a<0)
 		{
-			a=(2*a)-a;
+			a=a-(2*a);
 		}
 
 		if(b<0)
 		{
-			b=(2*b)-b;
+			b=b-(2*b);
 		}
 
 		int sum=add(a,b);
