@@ -17,8 +17,10 @@ class addition
 		int sum=add(10,20);
 		System.out.println(sum);
 
+
 		int mult=mul(10,20);
 		System.out.println("MULTPLICATION :- "mult);
+
 		
 	}
 } 
